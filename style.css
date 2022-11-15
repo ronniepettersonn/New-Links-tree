@@ -182,6 +182,11 @@ footer img {
 }
 
 @media (min-width: 768px) {
+    section .title {
+        display: flex;
+        justify-content: center;
+    }
+
     section .cards {
         display: flex;
         flex-direction: column;
